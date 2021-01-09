@@ -19,10 +19,10 @@
   <input type="checkbox" />
 </div>
 
-<button>Generate!</button>
+<button (click)=onButtonClick()>Generate!</button>
 
 <div>
-  <label for="">Your Password</label>
-  <input />
+  <label>Your Password</label>
+  <input [value]="password"/>
 </div>
 
