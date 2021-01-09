@@ -6,17 +6,17 @@
 
 <div>
   <label for="">Use Letters</label>
-  <input type="checkbox" />
+  <input type="checkbox" (change)="onLettersChange()"/>
 </div>
 
 <div>
   <label for="">Use Numbers</label>
-  <input type="checkbox" />
+  <input type="checkbox" (change)="onNumbersChange()"/>
 </div>
 
 <div>
   <label for="">Use Symbols</label>
-  <input type="checkbox" />
+  <input type="checkbox" (change)="onSymbolsChange()"/>
 </div>
 
 <button (click)=onButtonClick()>Generate!</button>
